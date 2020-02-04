@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Holodeck (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Holodeck Linux Debug Build",
+			"program": "/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Binaries/Linux/Holodeck-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Holodeck (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Holodeck Linux DebugGame Build",
+			"program": "/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Binaries/Linux/Holodeck-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Holodeck (Development)",
+			"request": "launch",
+			"preLaunchTask": "Holodeck Linux Development Build",
+			"program": "/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Binaries/Linux/Holodeck",
+			"args": [
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Holodeck (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Holodeck Linux Shipping Build",
+			"program": "/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Binaries/Linux/Holodeck-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Holodeck (Test)",
+			"request": "launch",
+			"preLaunchTask": "Holodeck Linux Test Build",
+			"program": "/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Binaries/Linux/Holodeck-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "HolodeckEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "HolodeckEditor Linux Debug Build",
+			"program": "/home/seth/dev/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Holodeck.uproject"
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "HolodeckEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "HolodeckEditor Linux DebugGame Build",
+			"program": "/home/seth/dev/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Holodeck.uproject"
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "HolodeckEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "HolodeckEditor Linux Development Build",
+			"program": "/home/seth/dev/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Holodeck.uproject"
+			],
+			"cwd": "/home/seth/dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/seth/dev/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Holodeck.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/seth/dev/UnrealEngine"
+		}
+	]
+}

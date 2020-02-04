@@ -1,0 +1,14 @@
+{
+	"files.exclude": {
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/.git": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/.github": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/.idea": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/.kdev4": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/.vs": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/.vscode": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Content": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Docs": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Intermediate": true,
+		"/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Saved": true
+	}
+}
