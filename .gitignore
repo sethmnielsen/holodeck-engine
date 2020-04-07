@@ -1,3 +1,9 @@
+.kdev4/
+Holodeck.code-workspace
+Holodeck.kdev4
+Holodeck.pro
+Holodeck.workspace
+
 # Content files
 Content/DesertRuins
 Content/ForestCollection
