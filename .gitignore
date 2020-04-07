@@ -65,3 +65,5 @@ DerivedDataCache/*
 # Visual Studio Artifacts
 .vs/
 Content/HolodeckContent/Bots/HuntingSpider/*
+
+.vscode/
