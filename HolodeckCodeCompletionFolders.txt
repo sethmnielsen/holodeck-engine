@@ -3185,13 +3185,13 @@
 /home/seth/dev/UnrealEngine/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/destructible
 /home/seth/dev/UnrealEngine/Engine/Source/ThirdParty/GoogleARCore/include
 /home/seth/dev/UnrealEngine/Engine/Source
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck/Agents/Public
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck/General/Public
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck/Sensors/Public
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck/Utils/Public
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck/HolodeckCore/Public
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck/ClientCommands/Public
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck/Tasks/Public
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck/Agents/Public
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck/General/Public
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck/Sensors/Public
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck/Utils/Public
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck/HolodeckCore/Public
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck/ClientCommands/Public
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck/Tasks/Public
 /home/seth/dev/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine
 /home/seth/dev/UnrealEngine/Engine/Source/Runtime
 /home/seth/dev/UnrealEngine/Engine/Source/Runtime/Engine/Classes
@@ -3621,9 +3621,9 @@
 /home/seth/dev/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP
 /home/seth/dev/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP/Encoders
 /home/seth/dev/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Holodeck
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source
-/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Source/Holodeck
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Holodeck
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source
+/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Source/Holodeck
 /home/seth/dev/UnrealEngine/Engine/Source/ThirdParty
 /home/seth/dev/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/JsonUtilities
 /home/seth/dev/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public

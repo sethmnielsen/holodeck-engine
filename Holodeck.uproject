@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.22",
+	"EngineAssociation": "{0004166F-08D7-0657-AECA-93B00C48F02E}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -15,6 +15,5 @@
 	],
 	"TargetPlatforms": [
 		"LinuxNoEditor",
-		"WindowsNoEditor"
 	]
 }

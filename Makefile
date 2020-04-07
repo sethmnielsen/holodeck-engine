@@ -2,7 +2,7 @@
 # *DO NOT EDIT*
 
 UNREALROOTPATH = /home/seth/dev/UnrealEngine
-GAMEPROJECTFILE =/home/seth/Documents/Unreal Projects/ocean-world/ocean-engine 4.22/Holodeck.uproject
+GAMEPROJECTFILE =/home/seth/Documents/unreal_projects/ocean-world/ocean-engine-seth/Holodeck.uproject
 
 TARGETS = \
 	BlankProgram-Linux-Debug  \
