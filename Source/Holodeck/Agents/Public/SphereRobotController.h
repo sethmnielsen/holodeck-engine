@@ -16,7 +16,7 @@ UCLASS()
 class HOLODECK_API ASphereRobotController : public AHolodeckPawnController
 {
 	GENERATED_BODY()
-	
+
 public:
 	/**
 	  * Default Constructor

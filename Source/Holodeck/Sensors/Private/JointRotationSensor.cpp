@@ -47,9 +47,9 @@ void UJointRotationSensor::TickSensorComponent(float DeltaTime, ELevelTick TickT
 
 		FString JointName = Joints[JointInd].ToString();
 
-		FloatBuffer = AddJointRotationToBuffer(JointName, true, 
-														  JointInd < this->Num2AxisJoints + this->Num3AxisJoints, 
-														  JointInd < this->Num3AxisJoints, 
+		FloatBuffer = AddJointRotationToBuffer(JointName, true,
+														  JointInd < this->Num2AxisJoints + this->Num3AxisJoints,
+														  JointInd < this->Num3AxisJoints,
 			                                              FloatBuffer);
 	}
 }

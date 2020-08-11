@@ -7,30 +7,30 @@
 #include "HolodeckPawnController.h"
 #include "BoatAgent.h"
 
-#include "BoatController.generated.h"
+#include "BoatAgentController.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
-class HOLODECK_API ABoatController : public AHolodeckPawnController
+class HOLODECK_API ABoatAgentController : public AHolodeckPawnController
 {
 	GENERATED_BODY()
-	
+
 public:
 	/**
 	  * Default Constructor
 	  */
-	ABoatController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+	ABoatAgentController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 
 	/**
 	  * Default Destructor
 	  */
-	~ABoatController();
+	~ABoatAgentController();
 
 	void AddControlSchemes() override {
 		// No control schemes
 	}
-	
-	
+
+
 };

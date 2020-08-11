@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1170066A-08D8-1E84-001C-EF70A94C3E12}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Holodeck",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"LinuxNoEditor",
+	]
+}
