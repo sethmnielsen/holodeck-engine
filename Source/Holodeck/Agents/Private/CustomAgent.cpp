@@ -17,9 +17,6 @@ void ACustomAgent::InitializeAgent() {
 	Super::InitializeAgent();
 	RootMesh = Cast<UStaticMeshComponent>(RootComponent);
 
-	UE_LOG(LogHolodeck, Warning, TEXT("HELLLOOOOOOOOO"), *this->AgentMesh);
-	UE_LOG(LogHolodeck, Warning, TEXT("The AgentMesh string says: %s"), *this->AgentMesh);
-
 	if (this->AgentMesh == "Turtlebot")
 	{
 		UStaticMesh* meshToUse = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, TEXT("/Game/HolodeckContent/Agents/CustomAgent/Meshes/Turtlebot/TurtleBodyMesh_2.TurtleBodyMesh_2")));
