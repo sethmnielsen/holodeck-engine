@@ -32,6 +32,8 @@ void ACustomAgent::InitializeAgent() {
 		UStaticMesh* meshToUse = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, TEXT("/Game/HolodeckContent/Agents/CustomAgent/Meshes/UAV-Fixed-Wing/uav-fixed-wing.uav-fixed-wing")));
 		RootMesh->SetStaticMesh(meshToUse);
 	}
+
+	verifyf(RootMesh->GetStaticMesh() != nullptr, TEXT("GetStaticMesh() for CustomAgent %s returned a nullptr!"), *this->AgentName);
 }
 
 // Called every frame
