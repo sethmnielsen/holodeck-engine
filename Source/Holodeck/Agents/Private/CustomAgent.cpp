@@ -22,9 +22,9 @@ void ACustomAgent::InitializeAgent() {
 		UStaticMesh* meshToUse = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, TEXT("/Game/HolodeckContent/Agents/CustomAgent/Meshes/Turtlebot/TurtleBodyMesh_2.TurtleBodyMesh_2")));
 		RootMesh->SetStaticMesh(meshToUse);
 	}
-	else if (this->AgentMesh == "Police Car")
+	else if (this->AgentMesh == "Quadrotor")
 	{
-		UStaticMesh* meshToUse = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, TEXT("/Game/HolodeckContent/Agents/CustomAgent/Meshes/Car/scifi-police-car-isolated.scifi-police-car-isolated")));
+		UStaticMesh* meshToUse = Cast<UStaticMesh>(StaticLoadObject(UStaticMesh::StaticClass(), NULL, TEXT("/Game/HolodeckContent/Agents/CustomAgent/Meshes/UAVMesh/UAV.UAV")));
 		RootMesh->SetStaticMesh(meshToUse);
 	}
 	else if (this->AgentMesh == "Fixed-wing UAV")
@@ -59,6 +59,3 @@ void ACustomAgent::Tick(float DeltaSeconds) {
 		this->IsAbused = true;
 	}
 }
-
-
-
