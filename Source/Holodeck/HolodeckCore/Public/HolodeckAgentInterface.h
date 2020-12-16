@@ -107,6 +107,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString AgentName;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FString AgentMesh;
+
 	UPROPERTY(BlueprintReadWrite)
 		bool MainAgent;
 };

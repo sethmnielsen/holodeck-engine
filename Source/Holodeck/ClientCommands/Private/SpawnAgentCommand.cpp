@@ -5,7 +5,7 @@
 void USpawnAgentCommand::Execute() {
 
 	UE_LOG(LogHolodeck, Log, TEXT("SpawnAgentCommand::Execute spawning agent"));
-	verifyf(StringParams.size() == 2 && NumberParams.size() == 7, TEXT("%s: Bad Arguments"), *FString(__func__));
+	verifyf(StringParams.size() == 3 && NumberParams.size() == 7, TEXT("%s: Bad Arguments"), *FString(__func__));
 
 	AHolodeckGameMode* GameTarget = static_cast<AHolodeckGameMode*>(Target);
 	if (GameTarget == nullptr) {
@@ -21,6 +21,13 @@ void USpawnAgentCommand::Execute() {
 
 	FString AgentType = StringParams[0].c_str();
 	FString AgentName = StringParams[1].c_str();
+	FString AgentMesh = StringParams[2].c_str();
+
+
+	UE_LOG(LogHolodeck, Warning, TEXT("AgentType string: %s"), *AgentType);
+	UE_LOG(LogHolodeck, Warning, TEXT("AgentName string: %s"), *AgentName);
+	UE_LOG(LogHolodeck, Warning, TEXT("AgentMesh string: %s"), *AgentMesh);
+
 	FVector Location = FVector(NumberParams[0], NumberParams[1], NumberParams[2]);
 
 	// Note that we have to re-order the parameters since FRotator takes pitch, roll, yaw
@@ -38,9 +45,12 @@ void USpawnAgentCommand::Execute() {
 
 	SpawnedAgent->AgentName = AgentName;
 	SpawnedAgent->MainAgent = IsMainAgent;
+	SpawnedAgent->AgentMesh = AgentMesh;
+	UE_LOG(LogHolodeck, Warning, TEXT("AgentMesh string again: %s"), *AgentMesh);
 	SpawnedAgent->SpawnDefaultController();
 	SpawnedController = static_cast<AHolodeckPawnController*>(SpawnedAgent->Controller);
 	SpawnedController->SetServer(GameTarget->GetAssociatedServer());
+	UE_LOG(LogHolodeck, Warning, TEXT("And now SpawnedAgent->AgentMesh: %s"), *SpawnedAgent->AgentMesh);
 	SpawnedAgent->InitializeAgent();
 
 	UE_LOG(LogHolodeck, Log, TEXT("SpawnAgentCommand spawned a new Agent."));
